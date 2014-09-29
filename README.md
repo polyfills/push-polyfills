@@ -1,5 +1,5 @@
 
-# push-polyfills
+# Push Polyfills
 
 [![NPM version][npm-image]][npm-url]
 [![Build status][travis-image]][travis-url]
@@ -9,6 +9,7 @@
 [![Downloads][downloads-image]][downloads-url]
 [![Gittip][gittip-image]][gittip-url]
 
+Helper to SPDY/HTTP2 push polyfill bundles to the client.
 Don't use this library directly.
 Use one of the middleware listed in https://github.com/polyfills/polyfills.
 
