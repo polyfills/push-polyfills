@@ -18,9 +18,9 @@
     "spdy-keys": "0.0.0"
   },
   "scripts": {
-    "test": "mocha --reporter spec",
-    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot",
-    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot"
+    "test": "mocha --reporter spec --timeout 10s",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --timeout 10s",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot --timeout 10s"
   },
   "keywords": [
     "polyfill",
