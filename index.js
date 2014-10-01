@@ -34,6 +34,7 @@ Polyfill.prototype.push = function (cb) {
     var gzip = polyfill.select(data, self.minify, true)
     return spdy(res).push({
       path: '/polyfill.js',
+      priority: 0,
       headers: headers,
       filename: polyfill.pathOf(data.name, gzip[0])
     })
