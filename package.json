@@ -12,7 +12,7 @@
   "devDependencies": {
     "bluebird": "^2.3.4",
     "istanbul": "0",
-    "mocha": "1",
+    "mocha": "2.4.1",
     "polyfills": "^1.5.0",
     "spdy": "^1.28.1",
     "spdy-keys": "0.0.0"
